@@ -94,3 +94,40 @@ body {
     background-color: #f5c400;
     color: black;
 }
+#sortSelect {
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid #f5c400;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#sortSelect:focus {
+    outline: none;
+}
+
+.search-container {
+    margin-bottom: 15px;
+}
+
+#searchInput {
+    padding: 10px 14px;
+    margin-left: 8px;
+    width: 220px;
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid #f5c400;
+    border-radius: 6px;
+}
+
+#searchInput::placeholder {
+    color: #aaa;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: white;
+}
